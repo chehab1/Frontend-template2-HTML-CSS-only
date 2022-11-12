@@ -1,0 +1,182 @@
+:root {
+    --main-color--: #009688;
+}
+
+body {
+    background-color: #eeee;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Small screen*/
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+
+}
+
+/*Meduim screen*/
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+}
+
+/*Large screen*/
+@media (min-width:1200) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.image img {
+    width: 100%;
+}
+
+.main-page .container {
+    width: 80%;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    margin-right: auto;
+}
+
+/* Start Main Page */
+.main-page .container .card {
+    background-color: white;
+    width: calc(100% / 3);
+}
+
+/* Start Info */
+.main-page .container .card .card-content .info {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-content: center;
+}
+
+.main-page .container .card .card-content .info i {
+    color: var(--main-color--);
+}
+
+.main-page .container .card .card-content .info div:not(:last-child) i {
+    padding-bottom: 20px;
+}
+
+.main-page .container .card .card-content .info hr {
+    width: 90%;
+    position: relative;
+    margin: 0;
+}
+
+/* End Info */
+/* Start Skills section */
+.main-page .container .card .card-content .skills {
+    padding-left: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+    align-content: center;
+}
+
+.main-page .container .card .card-content .skills i {
+    color: var(--main-color--);
+}
+
+.main-page .container .card .card-content .skills div div {
+    background-color: #E8e8e8;
+    width: calc(100% - 30px);
+    height: 20px;
+    border-radius: 9px;
+}
+
+.main-page .container .card .card-content .skills div div .first {
+    background-color: var(--main-color--);
+    width: 90%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+.main-page .container .card .card-content .skills div div .second {
+    background-color: var(--main-color--);
+    width: 80%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+.main-page .container .card .card-content .skills div div .third {
+    background-color: var(--main-color--);
+    width: 75%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+.main-page .container .card .card-content .skills div div .forth {
+    background-color: var(--main-color--);
+    width: 50%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+/* End Skills section */
+/* Start languages */
+
+.main-page .container .card .card-content .languages {
+    padding-left: 25px;
+    padding-top: 0;
+    padding-bottom: 25px;
+    align-content: center;
+}
+
+.main-page .container .card .card-content .languages i {
+    color: var(--main-color--);
+}
+
+.main-page .container .card .card-content .languages div div {
+    background-color: #E8e8e8;
+    width: calc(100% - 30px);
+    height: 20px;
+    border-radius: 9px;
+}
+
+.main-page .container .card .card-content .languages div div .first {
+    background-color: var(--main-color--);
+    width: 100%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+.main-page .container .card .card-content .languages div div .second {
+    background-color: var(--main-color--);
+    width: 75%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+.main-page .container .card .card-content .languages div div .third {
+    background-color: var(--main-color--);
+    width: 50%;
+    height: 20px;
+    border-radius: 9px;
+    color: #E8e8e8;
+    text-align: center;
+}
+
+/* End Languages */
+/* End Main Page */
